@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+            
+        }
+
+        .login-container {
+            background-color: #d3d0d0;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 25px 25px 20px rgba(0, 0, 0, 0.253);
+            width: 400px; 
+        }
+
+        h1 {
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        input {
+            
+            padding: 15px;
+            border: 1px solid black;
+            border-radius: 5px;
+            background-color: #f4f4f4;
+        }
+        input:hover{
+            background-color: rgb(219, 209, 209);
+            color: black;
+        }
+
+        #button {
+            padding: 10px;
+            border: 1px solid black;
+            border-radius: 5px;
+            background-color: #3d91c8;
+            color: #fff;
+            font-size: 16px;
+            margin-top: 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        #button:hover {
+            background-color: rgb(19, 79, 143);
+        }
+        #cross{
+            float: right;
+            padding-left: 5px;
+            padding-right: 5px;
+            border: 2px solid black;
+            text-decoration: none;
+            border-radius: 50%;
+            color: black;
+
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="login-container">
+        <div>
+            <a href="index.html" id="cross">X</a>
+        </div>
+        <h1>Login</h1>
+        <form action="index.html">
+            <h3>Username:</h3>
+            <input type="text" id="username" name="username" placeholder="username" required>
+            
+            <h3>password:</h3>
+            <input type="password" id="password" name="password" placeholder="password" required>
+            <button type="submit" id="button">Login</button>
+            <a href="register.html" id="button">Register Now</a>
+            
+        </form>
+        
+    </div>
+</body>
+</html>

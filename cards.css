@@ -1,0 +1,112 @@
+ /* Header styling */
+ header {
+    font-family: Ga Maamli, Static;
+    width: 100%;
+    background-color: #d9d9d9; /* Adjusted to match the logo's background color */
+    color: #333;
+    display: flex;
+    flex-direction: row; /* Align items horizontally */
+    align-items: center; /* Center items vertically */
+    padding: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 90px;
+}
+#text{
+    font-size: 40px;
+    text-align: center;
+    /* margin-left: 1%; */
+}
+
+header img {
+    width: 80px;
+    height: auto;
+    margin-right: 10px; /* Space between the logo and the text */
+}
+
+header h1 {
+    margin: 0; /* Remove default margin */
+}
+
+/* Navbar styling */
+nav {
+    width: 100%;
+    background-color: #8ab2cc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding-right: 10px ; */
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 20px; /* Added more spacing between nav items */
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.login-button {
+    background-color: #fff;
+    color: #2874A6;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 5%;
+   /*  margin-left: 50px; Adjusted margin to move the login button to the left */
+}
+#logo{
+    height: 100px;
+    width: 100px;
+    align-items: center;
+    margin-left: 20%;
+}
+html{
+    border: 4px solid black;
+    width: 80%;
+    /* height: 80%; */
+    margin-left: 150px;
+
+}
+h1{
+    text-align: center;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    margin-bottom: 0px;
+}
+img{
+    width: 40%;
+    float: left;
+    margin-left:2%;
+}
+#service{ 
+    margin-top: 10% ;
+    /* margin-left: 40%; */
+    margin-right: 10%; 
+    float: right;
+    /* justify-items: center; */
+}
+.company{
+    clear: both;
+    padding: 1px;
+    display: grid;
+    grid-template-columns: 3fr 1fr 3fr 1fr ;
+    border: 2px black solid;
+    /* width: 90%; */
+    border-radius: 20px;
+}
+.data{
+    border: 3px solid rgb(233, 213, 186);
+    border-radius: 20px;
+    background-color: rgb(253, 239, 222);
+    width: 100%;
+    padding: 5%;
+    margin: 5%;
+    margin-left: 15%;
+}
